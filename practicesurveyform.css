@@ -1,0 +1,119 @@
+#title{
+    font-size:3rem;
+    width:100%;
+    padding: 10px;
+    font-weight:bolder ;
+    margin: auto;
+    display: flex;
+    color:white;
+    background-color: rgba(77, 65, 65, 0.3);
+    width: 54%;
+    justify-content: center;
+    text-shadow: black;
+}
+#description{
+
+ font-size:1.8rem;
+ padding: 10px;
+display: flex;
+color:white;
+background-color: rgba(77, 65, 65, 0.3);
+width: 54%;
+justify-content: center;
+margin: auto;
+}
+.note{
+
+font-size:1.5rem;
+padding: 10px;
+display: flex;
+color:white;
+background-color: rgba(77, 65, 65, 0.3);
+width: 54%;
+justify-content: center;
+margin: auto;
+margin-top: 20px;}
+body{
+background-image:url("https://3k8pb633fck715pnk94793lq-wpengine.netdna-ssl.com/wp-content/uploads/Multicultural-character-800x800.jpg");
+background-attachment: fixed;
+background-size:cover;
+background-repeat: no-repeat;
+background-blend-mode: darken;
+background-color:rgba(0,0,0,0.2);
+background-position: center;
+text-align: center;
+color:white;
+}
+
+#survey-form{
+    font-size: 1.8rem;
+    background-color:rgba(0,0,0,0.8);
+    margin: auto;
+    width: 54%;
+    padding:20px;
+    text-align: justify;
+    padding-left: 50px;
+    margin-top: 20px;
+    /* display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column; */
+}
+@media (max-width:700px)
+{
+
+#survey-form
+{
+    width:100%;
+}
+}
+
+
+#Arrivaldate{
+
+
+    width: 20rem;
+    margin-left: 35px;
+    height: 2rem;
+    font-size: 1.8rem;
+    background-color: ghostwhite    ;
+    border-radius: 12px;
+}
+#dropdown{
+    
+    width: 20rem;
+    margin-left: 35px;
+    height: 2rem;
+    font-size: 1.8rem;
+    background-color: ghostwhite    ;
+    border-radius: 12px;
+    margin-top:40px;
+}
+}
+input[type=radio] {
+    border: 0px;
+    width: 6%;
+    height: 2em;
+}
+input[type=checkbox] {
+    border: 0px;
+    width: 6%;
+    height: 2em;
+}
+#submit
+{
+    width:200px;
+background-color:rgb(87, 127, 165);
+font-weight:bolder;
+font-size: 2rem;
+border-radius: 10px;}
+#story{
+
+
+    width:80%;
+    height: 100px;   ;
+}
+
+
+
+    

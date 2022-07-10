@@ -1,0 +1,109 @@
+x<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form -Diversity</title>
+</head>
+<link href="practicesurveyform.css" rel="stylesheet"  type="text/css">
+<body>
+    
+ 
+    <h1 id="title">  Survey Form<h2>
+        <p id="description"> Survey relating to Denmark for Internationalss</p>
+        <p class="note"> Please note survey is for people greater than 18 years and less than 70 years  </p>
+        
+        <form action="" id="survey-form">
+                
+              <fieldset>
+                
+                
+                <legend style="text-align:center"> Personal Information</legend>
+                
+                
+                  <label for="name" id="name-label">Name</label>
+                  <input type="text" id="name" placeholder="Enter you name " required>
+                <br></br>
+          <label for="email" id="email-label">Email</label>
+          <input type="email" id="email" placeholder="Enter your Email Id" required>
+          <br></br>
+        <label for="number" id="number-label">Enter your 8 digit mobile number </label>
+        <input type="tel" id=number" pattern="[1-9]{8}"placeholder="denmarks num accepted">
+                                                           <p>Format:8 digit number starting with[1-9] not zero</p>
+        <label for="number-label">Age</label>
+        <input type="number" id="number" placeholder=Enter you Age" min="19" max="69"required>
+          </fieldset>
+                                                                   
+        
+        <label for="Arrivaldate">1) When you arrived in Denmark </label>  <br></br>
+        <input type="date" id="Arrivaldate" >
+        <br></br>
+      
+      <p>2) How are you liking the danish culture </p>
+      <input type="radio" id="verymuch" name="culturelikeness" value="verymuch" checked>
+      <label for="verymuch">Very Good</label>
+      <br></br>
+      <input type="radio" id="good" name="culturelikeness" value="good" >
+      <label for="good">Good</label>
+      <br></br>
+      <input type="radio" id="acceptable" name="culturelikeness" value="acceptable" >
+      <label for="acceptable">Acceptable</label>
+      <br></br>
+      <input type="radio" id="poor" name="culturelikeness" value="poor" >
+      <label for="poor">Poor</label>
+      <br></br>
+      <label for="dropdown">3) How much you feel integrated in the Denmark as an international</label>
+      <select name="integration" id="dropdown">
+        <option value="0-25%">0%-20%</option>
+        <option value="25-50%">25%-50%</option>
+        <option value="50-75%">50%-75%</option>
+        <option value="75-100%">75%-100%</option>
+          
+      </select>
+      <br></br>
+      
+      <p>4) Are you satisfied with the services provided to citizens in denmark</p>
+      <input type="range" id="saisfaction" name="satisfaction" value="50" min="0" max="100">
+      <br></br>
+      <p>5) What are your interest areas?</p>
+      
+      <input type="checkbox" id="music" name="interest" value="music">
+      <label for="music"> Music</label>
+      <br></br>
+      <input type="checkbox" id="dance" name="interest" value="dance">
+      <label for="dance"> Dance</label>
+      <br></br>
+      <input type="checkbox" id="sports" name="interest" value="sports"
+        <label for="sports">  Sports</label>
+      <br></br>
+      <input type="checkbox" id="others" name="interest" value="others">
+      <label for="others"> Others</label>
+      <p>6) What do yo think about the avaibility of the culture and lesuire acivities options according to your interest in denamrk </p>
+        <input type="radio" id="verymuch" name="cultureavaibility" value="verymuch" checked>
+      <label for="verymuch">Very Good</label>
+      <br></br>
+      <input type="radio" id="good" name="cultureavaibility" value="good" >
+      <label for="good">Good</label>
+      <br></br>
+      <input type="radio" id="acceptable" name="cultureavaibility" value="acceptable" >
+      <label for="acceptable">Acceptable</label>
+      <br></br>
+      <input type="radio" id="poor" name="cultureavaibility" value="poor" >
+      <label for="poor">Poor</label>
+      <br></br>
+      
+          <label for="story">7) Tell us your story(Any Suggestions/Ideas/Comments)</label>
+      <br></br>
+      
+      <textarea id="story" name="story" placeholder="Any Comments type here ">
+      </textarea>
+      <br></br>
+           <button id="submit"> SUBMIT</button>
+        </form>
+          
+      
+          
+            
+</body>
+</html>
